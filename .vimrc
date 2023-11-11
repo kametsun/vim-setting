@@ -6,7 +6,7 @@
 "---------------
 set encoding=UTF-8
 set fileencoding=UTF-8
-set termeencoding=UTF-8
+set termencoding==UTF-8
 
 "----------------
 " スクロール
@@ -97,7 +97,7 @@ set softtabstop=4
 " ファイル内にあるタブ文字の表示幅
 set tabstop=4
 " 改行時に入力された行の末尾に合わせて次の行のインデントを増減する
-set smartindnt
+set smartindent
 " vimで読み込みのときにtabの幅をスペース4個分にする
 set shiftwidth=4
 "----------------
@@ -140,7 +140,7 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 call glaive#Install()
-Glaive codefmt google_java_executable="java -jar ~/google-java-format-1.18.1-all-deps.jar"
+Glaive codefmt google_java_executable="java -jar /home/user0/google-java-format-1.18.1-all-deps.jar"
 
 augroup autoformat_settings
 	autocmd FileType bzl AutoFormatBuffer buildifier
