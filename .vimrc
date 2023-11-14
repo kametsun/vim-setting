@@ -6,7 +6,7 @@
 "---------------
 set encoding=UTF-8
 set fileencoding=UTF-8
-set termencoding==UTF-8
+set termencoding=UTF-8
 
 "----------------
 " スクロール
@@ -140,7 +140,7 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 call glaive#Install()
-Glaive codefmt google_java_executable="java -jar /home/user0/google-java-format-1.18.1-all-deps.jar"
+Glaive codefmt google_java_executable="java -jar $HOME/google-java-format-1.18.1-all-deps.jar"
 
 augroup autoformat_settings
 	autocmd FileType bzl AutoFormatBuffer buildifier
