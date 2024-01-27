@@ -3,5 +3,5 @@
 
 ##download
 ```
-wget https://raw.githubusercontent.com/kametsun/vim-setting/main/.vimrc -OutFile ~/.vimrc
+wget -O ~/.vimrc https://raw.githubusercontent.com/kametsun/vim-setting/main/.vimrc
 ```
